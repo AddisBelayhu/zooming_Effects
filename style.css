@@ -1,1 +1,9 @@
-css
+.container {
+    display: inline-grid;
+    outline: 2px solid green;
+    overflow: hidden;
+}
+
+img {
+    transform: scale(1.5);
+}
