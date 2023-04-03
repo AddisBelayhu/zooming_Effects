@@ -1,9 +1,27 @@
 .container {
     display: inline-grid;
-    outline: 2px solid green;
+    outline: 2px solid rgb(238, 240, 238);
     overflow: hidden;
 }
 
 img {
+    width: 40px;
+    height: 40px;
     transform: scale(1.5);
+}
+
+.container:hover {
+    overflow: visible;
+    z-index: 2;
+}
+
+body {
+    background:white;
+    margin: 0;
+    height: 100vh;
+    display: grid;
+    grid-auto-flow: column;
+    grid-gap:20px;
+    place-content: center;
+    overflow: hidden;
 }
